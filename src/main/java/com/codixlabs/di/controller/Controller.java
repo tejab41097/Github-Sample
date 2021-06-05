@@ -28,8 +28,8 @@ public class Controller {
 		return "I am Getting Data Properly "+ firstName + " "+lastName;
 	}
 	
-	@PostMapping
-	String postSomeData(@RequestBody User someData) {
-		return "I am Posting Data Properly "+ someData.first_name + " "+ someData.last_name;
-	}
+	// @PostMapping
+	// String postSomeData(@RequestBody User someData) {
+	// 	return "I am Posting Data Properly "+ someData.first_name + " "+ someData.last_name;
+	// }
 }
